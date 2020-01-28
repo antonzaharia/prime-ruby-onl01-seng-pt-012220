@@ -1,5 +1,5 @@
 def prime?(number)
-  n = 
-  if 
+  n = 2
+  if number % n == 0
   
 end
