@@ -1,5 +1,9 @@
 def prime?(number)
   n = 2
-  if number % n == 0
+  if number % n == 0 && number <= 0 
+    return true 
+  else
+    return false 
+  end
   
 end
