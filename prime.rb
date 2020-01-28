@@ -1,10 +1,4 @@
-def prime?(number)
-  n = 2
-  if number % n == 0 && number <= -1
-    
-    return false 
-  else
-    return true 
-  end
-  
+def is_prime?(number)
+  (2..number-1).each {|n| return false if number <= 1 || number % n == 0}
+  return true
 end
